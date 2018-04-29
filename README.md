@@ -1,2 +1,5 @@
 # Time-changer-plugin
-ただの暇つぶしで作ったものです。好きに改造してください。 https://youtu.be/Vn851uF6X-8
+It will can change own time.
+
+command: "/playertime" (aliases: "/pt", try "/pt" or "/playertime" for help.)  
+video: https://youtu.be/Vn851uF6X-8
