@@ -1,4 +1,4 @@
-# Time-changer-plugin
+# Time changer plugin
 It will can change own time.
 
 command: "/playertime" (aliases: "/pt", try "/pt" or "/playertime" for help.)  
