@@ -1,6 +1,6 @@
 name: Time changer plugin
 main: me.s4wa.time_changer_plugin
-version: SNAPSHOT
+version: 1.0
 commands:
  playertime:
   description: It will can change own time.
