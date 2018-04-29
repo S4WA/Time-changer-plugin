@@ -15,9 +15,10 @@ public class Cmd implements CommandExecutor {
 			sender.sendMessage("/" + label + " <day, noon, night, reset>");
 		} else if (args.length == 1) {
 			if (args[0].equalsIgnoreCase("day")) player.setPlayerTime(1000, false);
-			if (args[0].equalsIgnoreCase("noon")) player.setPlayerTime(6000, false);
-			if (args[0].equalsIgnoreCase("night")) player.setPlayerTime(18000, false);
-			if (args[0].equalsIgnoreCase("reset")) player.resetPlayerTime();
+			else if (args[0].equalsIgnoreCase("noon")) player.setPlayerTime(6000, false);
+			else if (args[0].equalsIgnoreCase("night")) player.setPlayerTime(18000, false);
+			else if (args[0].equalsIgnoreCase("reset")) player.resetPlayerTime();
+			else if (args[0] != null) player.setPlayerTime(Long.valueOf(args[0]), false);
 		}
 		return true;
 	}
