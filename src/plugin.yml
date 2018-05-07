@@ -4,6 +4,6 @@ version: 1.0
 commands:
  playertime:
   description: It will can change own time.
-  usage: /<command>
+  usage: /<command> (day, noon, night, reset)
   default: true
   aliases: pt
